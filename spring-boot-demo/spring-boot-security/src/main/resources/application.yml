@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring-security?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+    initialization-mode: always
+    schema: classpath:sql/schema.sql
+    data: classpath:sql/data.sql
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
