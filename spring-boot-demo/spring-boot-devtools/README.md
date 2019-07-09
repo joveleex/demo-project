@@ -1,6 +1,6 @@
 # 基本用法
 
-添加devtools的依赖
+添加spring-boot-devtools的依赖
 
 ```xml
 <dependency>
@@ -92,10 +92,10 @@ spring.devtools.restart.enabled=false
 @SpringBootApplication
 public class SpringBootDevtoolsApplication {
   
-  public static void main(String[] args) {
-    System.setProperty("spring.devtools.restart.enabled", "false");
-    SpringApplication.run(SpringBootDevtoolsApplication.class, args);
-  }
+  	public static void main(String[] args) {
+    		System.setProperty("spring.devtools.restart.enabled", "false");
+    		SpringApplication.run(SpringBootDevtoolsApplication.class, args);
+  	}
 }
 ```
 

@@ -6,6 +6,7 @@
         <module>spring-boot-cache-ehcache</module>
         <module>spring-boot-devtools</module>
         <module>spring-boot-security</module>
+        <module>spring-boot-test</module>
     </modules>
     <parent>
         <artifactId>demo-project</artifactId>
