@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>spring-boot-cache-ehcache</module>
+        <module>spring-boot-devtools</module>
         <module>spring-boot-security</module>
     </modules>
     <parent>
